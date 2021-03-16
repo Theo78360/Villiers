@@ -1,0 +1,283 @@
+body{
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1350px;
+	height: 1000px;
+	}
+#menu_top {
+	margin-top: 140px;
+	background: #000080;
+	height: 40px;
+}
+#menu_top ul{
+	margin: 5px;
+	padding: 0px;
+	
+}
+#menu_top ul li {
+	float: left;
+	list-style: none;
+}
+#menu_top ul li a{
+	font-size: 16px;
+	font-family: Lucida Fax,cursive;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	padding:0px 40px 0px 40px;
+	border-right: 2px solid #ccc;
+	
+	
+}
+#menu_top ul li a.blanc{
+	background: #000080;
+	color: #000080;
+	
+	
+}
+#menu_top ul li a.active{ /*accueil*/
+	background: #000080;
+	font-family:Lucida Fax,cursive; 
+	
+
+}
+
+
+#menu_top .fa{
+	margin-right: 8px
+}
+#menu_top .sub-menu-1{
+	display: none;
+}
+
+#menu_top ul li:hover .sub-menu-1{ /*sous case*/
+	display: block;
+	position: absolute;
+	background: #D3D3D3	;
+	width: 150px;
+	margin-top: 0px;
+}
+#menu_top ul li:hover .sub-menu-1 ul{ /*sous case*/
+	display: block;
+	margin:0px;
+}
+#menu_top ul li:hover .sub-menu-1 ul {
+	background: transparent;
+	border-radius: 0;
+	text-align: center;
+}
+#menu_top .sub-menu-1 ul li {		/*separation*/
+	border-bottom: 1px dotted #fff;
+	width: 150px;
+}
+
+#menu_top .sub-menu-1 ul li:last-child {
+	border-bottom: ;
+}
+#menu_top .sub-menu-1 ul li a {
+	border: 0;
+}
+#menu_top ul li:hover .sub-menu-1 ul li: last-child
+{
+	border-bottom: none;
+}
+#menu_top ul li:hover .sub-menu-1 ul li a:hover{
+	color: #141414;
+}
+
+#reseaux a
+{
+	top:100px;
+	margin-left:700px;
+	font-size: 16px;
+	font-family: Lucida Fax,cursive;
+	}
+
+#reseaux p{
+	top:80px;
+	margin-left:1000px;
+	font-size: 16px;
+	font-family: Lucida Fax,cursive;
+}
+
+#fb{
+	position: absolute;
+	top:100px;
+	left:1000px;
+}
+
+#yt{
+	position: absolute;
+	top:93px;
+	left:1050px;
+}
+
+#gmail{
+	position: absolute;
+	top:100px;
+	left:1130px;
+}
+#titre a {
+	font-size: 32px;
+	font-family: Lucida Fax,cursive;
+	left: 200px;
+	top:660px;
+	position: absolute;
+}
+
+#enfant a {
+	font-size: 20px;
+	font-family: Lucida Fax,cursive;
+	left: 200px;
+	top:750px;
+	position: absolute;
+}
+
+#jeune a {
+	font-size: 20px;
+	font-family: Lucida Fax,cursive;
+	left: 200px;
+	top:990px;
+	position: absolute;
+}
+#adulte a {
+	font-size: 20px;
+	font-family: Lucida Fax,cursive;
+	left: 200px;
+	top:1230px;
+	position: absolute;
+}
+
+
+
+#actu1 {
+	position: absolute;
+	left: 200px;
+	top:800px;
+	float:left;
+
+}
+#kermesse a{
+	font-size: 17px;
+	font-family: Lucida Fax,cursive;
+	left: 600px;
+	top:800px;
+	position: absolute;
+}
+
+#actu2{
+	position: absolute;
+	left:200px;
+	top: 1050px;
+}
+#concert a{
+	font-size: 17px;
+	font-family: Lucida Fax,cursive;
+	left: 600px;
+	top:1040px;
+	position: absolute;
+}
+
+#actu3{
+	position: absolute;
+	left: 200px;
+	top: 1280px;
+}
+#art a{
+	font-size: 17px;
+	font-family: Lucida Fax,cursive;
+	left: 600px;
+	top:1280px;
+	position: absolute;
+}
+
+#actu4{
+	position: absolute;
+	margin-left: 730px;
+	top:1380px;
+
+}
+
+#deb b{
+	position: absolute;
+	top: 60px;
+	font-size:15px;
+	font-family: Lucida Fax,cursive;
+	margin-left: 220px;
+	
+}
+
+#deb a{
+	position: absolute;
+	top: 40px;
+	font-family:Lucida Fax,cursive;
+	font-size:60px;
+	margin-left: 320px;
+	
+}
+
+#img {
+	float: left;
+}
+
+
+	
+	
+#droite{
+	width:150px;
+	height:1000px;
+	background-color: #B1B1B1;
+	float:right;
+	
+}
+#gauche{
+	width:150px;
+	height:1000px;
+	background-color: #B1B1B1;
+	float:left;
+	
+
+}
+
+#basg{
+	width:1350px;
+	height: 240px;
+	background-color: #D2CFCF;
+	margin-top: 180px;
+	font-family: cursive;
+
+}
+#basg p{
+	float:left;
+	font-size: 16px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+	
+#basg a {
+	margin-left: 80px;
+	float: left;
+	margin-top: 50px;
+	font-size:16px;
+}
+
+#basg iframe{
+	width: 270px;
+	height: 200px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+#connect a{
+	margin-right: 80px;
+}
+
+#tableau table tr td{
+    top:30px;
+}
+	
+#form{
+    margin-top: 100px;
+}
